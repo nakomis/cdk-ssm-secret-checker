@@ -216,3 +216,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Planning
+PLAN.md
+
+# CDK artefacts (should never be committed anyway — that's rather the point)
+cdk.out/
+*.out/
+
+# Coverage
+coverage/
+lcov.info
