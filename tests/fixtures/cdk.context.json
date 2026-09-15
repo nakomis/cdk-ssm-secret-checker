@@ -1,0 +1,8 @@
+{
+    "hosted-zone:account=000000000000:domainName=example.test:region=eu-west-2": {
+        "Id": "/hostedzone/ZEXAMPLE000000",
+        "Name": "example.test."
+    },
+    "ssm:account=000000000000:parameterName=/example/service/api-key:region=eu-west-2": "not-a-real-cached-value",
+    "availability-zones:account=000000000000:region=eu-west-2": ["eu-west-2a", "eu-west-2b"]
+}
